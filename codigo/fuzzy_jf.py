@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1BpfCQOiRfnVF8R8bTHEzmik5DlUEde_k
 """
 
-!pip install scikit-fuzzy
+#!pip install scikit-fuzzy
 
 import skfuzzy as fuzz
 from skfuzzy import control as ctrl
