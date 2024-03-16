@@ -1,0 +1,77 @@
+
+  Id     Duration CommandLine
+  --     -------- -----------
+   1        0.579 pip list
+   2        0.011 python --version
+   3        0.009 cd .\codigo\
+   4       34.129 python - m venv fusion_venv
+   5        6.670 python -m venv fusion_env
+   6        0.254 .\fusion_env\Scripts\activate
+   7        0.948 pip list
+   8        0.016 python --version
+   9        5.615 python.exe -m pip install --upgrade pip
+  10        0.480 pip intall scikit-fuzzy
+  11       33.402 pip install scikit-fuzzy
+  12        0.011 cls
+  13        0.116 píp freeze
+  14        0.531 pip freeze
+  15        2.906 pip install setuptools
+  16     1:13.425 pip install jupyter
+  17        1.391 pip install ipykernel
+  18        0.003 cls
+  19        0.010 deactivate
+  20        0.016 .\fusion_env\Scripts\activate
+  21        1.639 pip install -U scikit-fuzzy
+  22        0.845 pip list
+  23        0.754 pip freeze > requirements.txt
+  24        0.002 deactivate
+  25        0.007 cd ..
+  26        0.020 \Users\Juan Quiceno\.pyenv\pyenv-win\versions\3.9.0\python -m vnev fussy_env
+  27        0.017 \Users\Juan Quiceno\.pyenv\pyenv-win\versions\3.9.0\python -m venv fussy_env
+  28        0.015 C:\Users\Juan Quiceno\.pyenv\pyenv-win\versions\3.9.0\python -m venv fussy_env
+  29        0.000 "C:\Users\Juan Quiceno\.pyenv\pyenv-win\versions\3.9.0\python" -m venv fussy_env
+  30        0.017 "C:\Users\Juan Quiceno\.pyenv\pyenv-win\versions\3.9.0\python -m venv fussy_env"
+  31        0.020 ls
+  32        5.771 & "C:\Users\Juan Quiceno\.pyenv\pyenv-win\versions\3.9.0\python" -m venv fussy_env
+  33        0.007 ls
+  34        0.191 .\fussy_env\Scripts\activate
+  35        0.017 python --version
+  36        0.587 pip list
+  37        0.001 cd .\codigo\
+  38        0.008 ls
+  39        0.004 deactivate
+  40        0.019 .\fussy_env\Scripts\activate
+  41        0.018 pip intall -r .\requirements.txt
+  42        0.014 pip intall -r requirements.txt
+  43        0.027 python --version
+  44        0.014 pip list
+  45        0.002 deactivate
+  46        0.002 cls
+  47        7.619 & "C:\Users\Juan Quiceno\.pyenv\pyenv-win\versions\3.9.0\python" -m venv fussy_env309
+  48        0.034 .\fussy_env309\Scripts\activate
+  49        0.577 pip list
+  50        5.959 python.exe -m pip install --upgrade pip
+  51        0.790 pip list
+  52        3.362 pip install -r requirements.txt
+  53       13.988 pip install "ipython"
+  54       30.123 pip install scikit-fuzzy
+  55       13.371 pip install matplotlib
+  56        0.582 pip list
+  57       44.113 pip freeze | % { pip uninstall -y $_ }
+  58        0.002 deactivate
+  59        5.813 & "C:\Users\Juan Quiceno\.pyenv\pyenv-win\versions\3.9.0\python" -m venv fussy_env309
+  60        0.024 .\fussy_env309\Scripts\activate
+  61        0.857 pip list
+  62        5.715 python.exe -m pip install --upgrade pip
+  63        0.481 pip list
+  64     1:12.566 pip install scikit-fuzzy jupyter ipykernel
+  65        1.178 pip list
+  66       11.026 pip install matplotlib
+  67        6.556 pip install PyQt5==5.15.10
+  68        8.181 pip uninstall PyQt5==5.15.10
+  69       11.920 pip install PySide2
+  70       15.804 python -m tkinter
+  71        0.611 pip freeze > requirements.txt
+  72        0.007 deactivate
+  73        0.040 history > history
+
