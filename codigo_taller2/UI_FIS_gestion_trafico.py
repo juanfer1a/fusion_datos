@@ -1,6 +1,6 @@
 import streamlit as st
 import matplotlib.pyplot as plt
-from logica_FIS_gestion_trafico import QV, TE, HD, CM, TS, ts_sim  # Asegúrate de que 'logica' sea el nombre de tu módulo
+from logica_FIS_gestion_trafico import QV, TE, HD, CM, TS, ts_sim  
 
 # Título de la aplicación
 st.title('Sistema de Control de Semáforo')
@@ -24,15 +24,17 @@ if st.button('Calcular Tiempo de Semáforo'):
     # Mostrar el resultado
     output_ts = ts_sim.output['Tiempo de semaforo']
     st.write(f'El tiempo recomendado para el semáforo es: {output_ts} segundos.')
-
-    # Mostrar las funciones de membresía
+    
+    # no mostrar warning deprecation
     st.set_option('deprecation.showPyplotGlobalUse', False)
+    
+    #mostrar grafico resultado
     st.pyplot(TS.view(sim=ts_sim))
 
     # Repetir para las demás variables de entrada y la variable de salida
     # ...
 
-# Si quieres mostrar las funciones de membresía sin realizar una simulación, puedes usar:
+# Para mostrar las funciones de membresía sin realizar una simulación, puedes usar:
 # st.pyplot(QV.view())
 
-# Y repite lo mismo para TE, HD, CM y TS
+# Y se repite lo mismo para TE, HD, CM y TS
