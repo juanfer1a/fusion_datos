@@ -4,7 +4,7 @@ from logica_FIS_gestion_trafico import QV, TE, HD, CM, TS, ts_sim
 
 # Título de la aplicación
 st.title('Sistema de Control de Semáforo')
-output_ts = "null"
+#output_ts = "null"
 with st.sidebar:
     st.title("Antecedentes")
     # Crear sliders para las entradas del sistema
@@ -28,7 +28,7 @@ with st.sidebar:
         ts_sim.compute()
 
 # Mostrar el resultado
-        output_ts = ts_sim.output['Tiempo de semaforo']
+output_ts = ts_sim.output['Tiempo de semaforo']
 st.write(f'El tiempo recomendado para el semáforo es: {output_ts} segundos.')
 
 # no mostrar warning deprecation
