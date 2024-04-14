@@ -1,193 +1,23 @@
-    1  git init
-    2  git clone https://github.com/FaztWeb/djangorestframework_crud.git~
-    3  git clone https://github.com/FaztWeb/djangorestframework_crud.git
-    4  chmod a+x build.sh
-    5  .\venv\Scripts\activate
-    6  ls
-    7  git remote add origin https://github.com/juanfer1a/HPII.git
-    8  git init
-    9  git remote add origin https://github.com/juanfer1a/HPII.git
-   10  git status
-   11  git init
-   12  git remote add origin https://github.com/juanfer1a/source.git
-   13  git status
-   14  git add .
-   15  git init
-   16  git remote add origin https://github.com/juanfer1a/HPII.git
-   17  git status
-   18  git status
-   19  git add .
-   20  git add.
-   21  git add .
-   22  git status
-   23  clear
-   24  git commit -m "Firts commit"
-   25  git push
-   26  git branch -M main
-   27  git push
-   28  git remote add origin https://github.com/juanfer1a/HPII.git
-   29  git push -u origin main
-   30  git push -u origin main
-   31  git status
-   32  git add .
-   33  git commit -m "Eliminados"
-   34  git push
-   35  git push -u origin main
-   36  clear
-   37  git lfs install
-   38  git lfs track "*.png"
-   39  git add .gitattributes
-   40  git lfs track "*.jpg"
-   41  git status
-   42  git add .
-   43  git commit -m "Git lfs"
-   44  git push -u origin main
-   45  git --version
-   46  git push -u origin main
-   47  git add .
-   48  git commit -m "Git lfs2"
-   49  git push -u origin main
-   50  git status
-   51  git init
-   52  git remote add origin https://github.com/juanfer1a/HPII.git
-   53  git add .
-   54  git lfs install
-   55  git lfs track "*.sql"
-   56  git lfs track "*.xml"
-   57  git add .
-   58  git commit -m "Firts"
-   59  git branch -M main
-   60  git remote add origin https://github.com/juanfer1a/HPII.git
-   61  git push -u origin main
-   62  git add .
-   63  git commit -m "proyecto final"
-   64  git push -u origin main
-   65  [Cgit clone https://github.com/juanfer1a/IUE.git
-   66  git clone https://github.com/juanfer1a/IUE.git
-   67  cd IUE/
-   68  ls
-   69  dir
-   70  clear
-   71  . code
-   72  git status
-   73  git push -f origin master
-   74  git status
-   75  git add .
-   76  git status
-   77  git commit -m "creacion"
-   78  git push -f origin master
-   79  git push -u origin master
-   80  git branch
-   81  git checkout -b master
-   82  git branch
-   83  git push -u origin master
-   84  git status
-   85  git clone https://github.com/juanfer1a/IUE_APP.git
-   86  ls
-   87  . code
-   88  stop
-   89  exit
-   90  git init
-   91  exit
-   92  git clone https://github.com/juanfer1a/IUE_APP.git
-   93  git status
-   94  git clone https://github.com/juanfer1a/IUE_APP.git
-   95  git status
-   96  git status
-   97  git init
-   98  git status
-   99  git add .
-  100  git add .
-  101  git status
-  102  git checkout main
-  103  git clone https://github.com/juanfer1a/IUE_APP.git
-  104  git clone https://github.com/Klerith/dart-introduccion.git
-  105  git clone https://github.com/Klerith/dart-introduccion.git
-  106  git help
-  107  [200~git config --global user.name
-  108  git config --global user.name
-  109  git config --global user.mail
-  110  git config --global user.email
-  111  git clone https://github.com/Klerith/flutter-widgets-app.git
-  112  git clone https://github.com/Ymurillo89/FlutterEnvigado.git
-  113  git checkout main
-  114  git checkout 
-  115  git branch
-  116  cd FlutterEnvigado/
-  117  git branch
-  118  git checkout main
-  119  git branch juan
-  120  git checkout juan
-  121  git branch
-  122  git status
-  123  git add .
-  124  git commit -m "app iue version 2"
-  125  git push
-  126  git clone https://github.com/Ymurillo89/FlutterEnvigado.git
-  127  git clone https://github.com/firebase/snippets-flutter.git
-  128  git clone https://github.com/duytq94/flutter-chat-demo.git
-  129  git config --list
-  130  git config user.name
-  131  git config user.name
-  132  git --version
-  133  git clone https://github.com/ReposPascualBravo/Metro.git
-  134  git clone https://github.com/ReposPascualBravo/Metro.git
-  135  git clone https://github.com/ReposPascualBravo/Metro.git
-  136  git clone https://github.com/juanfer1a/MetroCuadroServicios.git
-  137  clone https://github.com/juanfer1a/metro_py.git
-  138  git clone https://github.com/juanfer1a/metro_py.git
-  139  git init
-  140  git status
-  141  git add.
-  142  git add .
-  143  git status
-  144  git commit -m 'Inicial'
-  145  git push
-  146  git status
-  147  git add .
-  148  git commit -m 'turnos ok'
-  149  git push
-  150  git status
-  151  exit
-  152  git status
-  153  git add .
-  154  git commit -m 'generar archivo turnos v1_2'
-  155  git push
-  156  exit
-  157  git status
-  158  git add .
-  159  git commit -m 'Turnos 139'
-  160  git push
-  161  git clone https://github.com/juanfer1a/fusion_datos.git
-  162  git clone https://github.com/juanfer1a/fusion_datos.git
-  163  git status
-  164  cd E:\Onedrive Personal\OneDrive\U\2024\FD\taller2\codigo_FIS
-  165  cd E:
-  166  ls
-  167  cd OneDrive
-  168  cd Ocls
-  169  clear
-  170  cd OneDrive Personal
-  171  cd OneDrive Personal/
-  172  cd OneDrive
-  173  cd "OneDrive Personal"
-  174  cd U/2024/FD
-  175  ls
-  176  cd OneDrive/
-  177  ls
-  178  cd U/2024
-  179  git init
-  180  git add .
-  181  git commit -m "FIS Ciber ataque"
-  182  git remote add origin https://github.com/juanfer1a/FD.git
-  183  git push -u origin master
-  184  clear
-  185  git add .
-  186  git commit -m "Inicio taller2"
-  187  git push
-  188  git add .
-  189  git push
-  190  git commit -m "FIS ciber_ataque"
-  191  git push
-  192  history
-  193  history > history_git.txt
+
+  Id     Duration CommandLine
+  --     -------- -----------
+   1        0.118 try { . "e:\Archivos de programa\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\browser\media\shellIntegration.ps1" } catch {}
+   2        0.058 git status
+   3        0.034 git status
+   4        0.339 git add .
+   5        0.272 git commit -m "FIS Proyecto OK"
+   6        3.199 git push
+   7        0.032 git status
+   8        0.093 git add .
+   9        0.164 git commit -m "FIS Proyecto OK + Ignore"
+  10        2.265 git push
+  11        0.048 git rm -r --cached .
+  12        0.145 git add .
+  13        0.167 git commit -m "Fix .gitignore"
+  14        0.034 git status
+  15        0.034 git status
+  16        0.000 |git push origin main
+  17        1.964 git push origin main
+  18        0.019 cls
+  19        0.032 history 
+
