@@ -1,0 +1,43 @@
+Fis ciberataque
+Este Sistema de Inferencia Difusa (FIS) está diseñado para analizar el riesgo de sufrir un ciberataque, teniendo en cuenta aspectos cruciales como la gravedad del ataque, la vulnerabilidad del sistema, su exposición al mismo y la capacidad de respuesta. Operando bajo un conjunto de reglas predefinidas, el sistema asigna niveles de riesgo que oscilan entre muy bajo y crítico.
+
+En las pruebas realizadas, se ha notado que la capacidad de respuesta juega un papel esencial en la mitigación del riesgo, incluso en situaciones donde la gravedad del ataque y la vulnerabilidad del sistema son elevadas. Así, un sistema con una capacidad de respuesta robusta puede reducir considerablemente el nivel de riesgo, pese a enfrentarse a ataques severos y una alta exposición.
+
+Comparación y Discusión
+Al contrastar las reglas implementadas, se destaca una notable dependencia de la interacción entre la severidad del ataque y la vulnerabilidad del sistema para establecer niveles de riesgo más elevados. No obstante, un descubrimiento interesante es que la capacidad de respuesta tiene la potencialidad de modificar drásticamente el nivel de riesgo previsto. Esto indica que fortalecer las estrategias de respuesta puede ser tan decisivo como implementar medidas preventivas.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Fis desempeño docente 
+
+Este Sistema de Inferencia Difusa (FIS) está diseñado para evaluar el desempeño de los docentes utilizando indicadores clave como el compromiso, la comunicación, el feedback, la evaluación y las habilidades de enseñanza. Estos factores son fundamentales para determinar la calidad educativa y, por ende, la evaluación global del desempeño docente.
+
+Durante simulaciones con datos específicos, se observó que un docente con excelentes habilidades de enseñanza podría recibir solo una evaluación media de su desempeño si otros aspectos, como el feedback y la evaluación, son deficientes. Esto subraya la importancia de mantener un equilibrio en todos los componentes del desempeño docente.
+
+Una conclusión clave del sistema es que un alto rendimiento en una sola área no garantiza necesariamente una evaluación alta en el desempeño general. Desde la perspectiva educativa, esto destaca la necesidad de sobresalir en múltiples áreas de enseñanza. Además, las reglas del sistema sugieren que ciertas habilidades destacadas pueden compensar parcialmente las deficiencias en otras áreas, lo que permite lograr un alto desempeño a pesar de ciertas limitaciones.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Fis control tiempo semaforo
+
+
+Este Sistema de Inferencia Difusa (FIS) está desarrollado para optimizar los tiempos de los semáforos en intersecciones, considerando variables como el volumen de tráfico, el tiempo de espera, la hora del día y las condiciones meteorológicas. Estos elementos son esenciales para gestionar de manera eficiente el flujo de vehículos y garantizar la seguridad vial.
+
+Las simulaciones del sistema revelaron que situaciones extremas como lluvias intensas o tráfico denso exigen aumentar los tiempos de los semáforos para mejorar la seguridad y la fluidez del tráfico. De forma interesante, el sistema también recomienda reducir los tiempos de semáforo en momentos de poco tráfico y condiciones climáticas favorables, lo que reduce las esperas innecesarias y aumenta la eficiencia del tráfico.
+
+El FIS muestra una notable capacidad de adaptación a diversos escenarios de tráfico. Una de las reglas clave incrementa la duración del semáforo en horas pico o cuando los vehículos han esperado mucho tiempo, lo cual es vital para evitar congestiones. Esto proporciona una ventaja significativa sobre sistemas más estáticos que no modulan los tiempos de semáforo en respuesta a las condiciones del tráfico en tiempo real.
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Fis proyecto
+
+
+Este Sistema de Inferencia Difusa (FIS) está diseñado para optimizar la gestión de inventario en una empresa de ropa, considerando variables como el nivel actual de stock, el impacto de las promociones, la capacidad de reabastecimiento y la eficiencia de la cadena de suministro. Estas variables son fundamentales para tomar decisiones estratégicas sobre la administración del inventario.
+
+Las simulaciones del sistema con parámetros específicos mostraron que, en escenarios de promociones intensas o niveles bajos de stock, el sistema aconseja aumentar el inventario para prevenir la pérdida de ventas. Inversamente, cuando hay un exceso de stock y las promociones tienen poco impacto, recomienda reducir el inventario para evitar costos innecesarios de almacenamiento y problemas de obsolescencia.
+
+El FIS destaca por su capacidad para ajustar el inventario basándose en una variedad de factores simultáneamente, superando a los métodos tradicionales que a menudo no consideran el efecto dinámico de las promociones o la eficiencia de la cadena de suministro. Esto permite a la empresa adaptarse de manera más efectiva a las fluctuaciones del mercado.
+
+
+

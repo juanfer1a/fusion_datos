@@ -1,0 +1,44 @@
+Definición de Variables y Funciones de Membresía
+1. Nivel de Stock (NS)
+Bajo: [0, 0, 30] - Implica la necesidad de reabastecimiento urgente.
+Medio: [20, 50, 80] - Estado de inventario equilibrado.
+Alto: [70, 100, 100] - Inventario excesivo que puede necesitar ajustes para evitar sobre-stock.
+2. Impacto de la Promoción (IP)
+Bajo: [0, 0, 30] - Promociones con poco efecto sobre la demanda.
+Medio: [20, 50, 80] - Promociones con efecto moderado, pueden aumentar la venta.
+Alto: [70, 100, 100] - Promociones altamente efectivas que aumentan significativamente la demanda.
+3. Capacidad de Reabastecimiento (CR)
+Baja: [0, 0, 30] - Dificultades en reponer inventario rápidamente.
+Media: [20, 50, 80] - Capacidad de reabastecimiento adecuada con algunos retrasos.
+Alta: [70, 100, 100] - Reabastecimiento rápido y eficiente sin demoras significativas.
+4. Eficiencia de la Cadena de Suministro (ES)
+Baja: [0, 0, 30] - Problemas significativos en la cadena de suministro que afectan las operaciones.
+Media: [20, 50, 80] - Cadena de suministro con rendimiento estándar, manejable.
+Alta: [70, 100, 100] - Cadena de suministro altamente eficiente y optimizada.
+Reglas de Inferencia Difusa
+Vamos a definir algunas reglas lógicas para determinar cómo ajustar el inventario basándonos en las combinaciones de estas entradas. La variable de salida es la Estrategia de Ajuste de Inventario, que también debe ser definida.
+
+Salida - Estrategia de Ajuste de Inventario (SAI)
+Reducir: Si el inventario es excesivo o las promociones no incrementan significativamente la demanda.
+Mantener: Cuando el nivel de inventario y la demanda están equilibrados.
+Aumentar: Si hay una promoción efectiva o el nivel de stock está bajo.
+´
+
+El Modelo JDL (Joint Directors of Laboratories) es un marco conceptual utilizado principalmente en aplicaciones militares y de inteligencia para la fusión de datos. Ha sido adaptado en varios campos para la toma de decisiones basada en la integración de datos provenientes de múltiples fuentes. Los niveles 2 y 3 de este modelo son particularmente importantes para la interpretación y comprensión del significado de los datos y la proyección de su impacto en el futuro. Aquí te explico cada uno:
+
+Nivel 2: Valoración de la Situación (Situation Assessment)
+En el nivel 2, la información y los datos procesados del nivel 1 (observación del objeto y reconocimiento de eventos) se analizan más a fondo para comprender la situación actual. Este nivel busca responder a la pregunta "¿Qué está pasando?". Implica interpretar los datos para discernir patrones, comportamientos, relaciones y significados más amplios. Por ejemplo, en el contexto de una empresa de ropa, este nivel analizaría los datos de inventario, demanda y ventas para entender las tendencias actuales del mercado y cómo ciertos factores como las promociones están afectando las ventas.
+
+Nivel 3: Valoración del Impacto (Impact Assessment)
+El nivel 3 se centra en "¿Qué efectos tienen estos acontecimientos?". Este nivel utiliza la información sobre la situación actual para predecir el impacto futuro y las implicaciones. En la valoración del impacto, se anticipan los posibles resultados de las acciones actuales y se evalúan las consecuencias de distintos cursos de acción. En el ámbito comercial, por ejemplo, esto podría incluir el análisis de cómo las tendencias actuales de ventas y stock afectarán la necesidad futura de reabastecimiento, la planificación de recursos y la formulación de estrategias de marketing.
+
+Aplicación en la Industria y Negocios
+En un entorno empresarial, como en una empresa de ropa que aplica fusión de datos, el nivel 2 podría involucrar el análisis de datos de ventas en tiempo real, la popularidad de ciertos artículos, y el efecto de las promociones o eventos estacionales en las ventas. El nivel 3 podría proyectar cómo estas tendencias afectarán la demanda futura, permitiendo a la empresa planificar de manera proactiva para eventos futuros, como la necesidad de aumentar la producción de un artículo popular o de planificar promociones para artículos que se están vendiendo menos de lo esperado.
+
+Al utilizar el Modelo JDL, las organizaciones pueden tomar decisiones basadas en datos más precisas y anticiparse a las necesidades futuras, optimizando así sus operaciones y estrategias para mejorar su eficiencia y efectividad en el mercado.
+
+
+
+
+
+

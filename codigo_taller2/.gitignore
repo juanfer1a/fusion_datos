@@ -1,2 +1,52 @@
-fis_env
-copy
+# Entornos virtuales
+fis_env/
+taller final/venv/
+
+# Archivos de configuración de entornos virtuales
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Directorios de PyCharm
+.idea/
+
+# Archivos de Python específicos
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+
+# Directorios de pruebas
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.coverage
+*.log
+
+# Archivos de configuración y bases de datos
+*.db
+*.sqlite
+*.sqlite3
+
+# Archivos generados
+copy/
+taller final/Taller Final _Fusion_Datos.pdf
+
+# Otros archivos ignorables
+*.DS_Store
+*.egg
+*.egg-info
+dist/
+build/
+eggs/
+parts/
+sdist/
+wheels/
+share/python-wheels/
