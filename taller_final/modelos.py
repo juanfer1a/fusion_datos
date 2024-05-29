@@ -28,7 +28,7 @@ import seaborn as sns
 
 # %%
 # Cargar el conjunto de datos 📊
-df = pd.read_csv('/content/inventario_con_datos_rfid_222.csv')
+df = pd.read_csv('inventario_con_datos_rfid_222.csv')
 
 # Convertir las variables categóricas en variables dummy 🏷️
 df = pd.get_dummies(df, columns=['Categoria', 'Estacion'], drop_first=True)
@@ -82,7 +82,7 @@ print(f"R^2 Score: {r2}")
 # Guardar las predicciones en un archivo CSV 💾
 # predicciones = pd.DataFrame({'Demanda_Real': y_test, 'Demanda_Predicha': y_pred})
 predicciones = pd.DataFrame({'Demanda_Predicha': y_pred})
-predicciones.to_csv('/content/3predicciones_demanda.csv', index=False)
+predicciones.to_csv('predicciones_demanda.csv', index=False)
 print("Predicciones guardadas en 'predicciones_demanda.csv'")
 
 # Visualizar los primeros 10 datos del DataFrame de predicciones 🔍
@@ -117,7 +117,7 @@ plt.show()
 
 # %%
 # Cargar el conjunto de datos 📊
-df = pd.read_csv('/content/inventario_con_datos_rfid_222.csv')
+df = pd.read_csv('inventario_con_datos_rfid_222.csv')
 
 # Convertir las variables categóricas en variables dummy 🏷️
 df = pd.get_dummies(df, columns=['Categoria', 'Estacion'], drop_first=True)
@@ -164,7 +164,7 @@ for name, reg in regressors.items():
 # Guardar las predicciones del mejor regresor para impacto de promoción en un archivo CSV 💾
 best_pred1 = best_regressor1.predict(X1_test)
 predicciones1 = pd.DataFrame({'Impacto_Promocion': best_pred1})
-predicciones1.to_csv('/content/predicciones_impacto_promocion.csv', index=False)
+predicciones1.to_csv('predicciones_impacto_promocion.csv', index=False)
 
 print("Predicciones guardadas en 'predicciones_impacto_promocion.csv'")
 print(f"Mejor regresor (Impacto de Promoción): {best_regressor1}")
@@ -207,7 +207,7 @@ for name, reg in regressors.items():
 # Guardar las predicciones del mejor regresor para necesidades futuras de inventario en un archivo CSV 💾
 best_pred2 = best_regressor2.predict(X2_test)
 predicciones2 = pd.DataFrame({'Inventario_Necesario': best_pred2})
-predicciones2.to_csv('/content/predicciones_inventario_necesario.csv', index=False)
+predicciones2.to_csv('predicciones_inventario_necesario.csv', index=False)
 
 print("Predicciones guardadas en 'predicciones_inventario_necesario.csv'")
 print(f"Mejor regresor (Necesidades Futuras de Inventario): {best_regressor2}")
@@ -288,7 +288,7 @@ plt.show()
 
 # %%
 # Cargar el conjunto de datos 📊
-df = pd.read_csv('/content/inventario_con_datos_rfid_222.csv')
+df = pd.read_csv('inventario_con_datos_rfid_222.csv')
 
 # Convertimos las variables categóricas en variables dummy 🏷️
 df = pd.get_dummies(df, columns=['Categoria', 'Estacion'], drop_first=True)
@@ -337,7 +337,7 @@ for name, reg in regressors.items():
 # Guardar las predicciones del mejor regresor 💾
 best_pred = best_regressor.predict(X_test)
 predicciones = pd.DataFrame({'Inventario_RFID': best_pred, 'Real': y_test})
-predicciones.to_csv('/content/predicciones_inventario_rfid.csv', index=False)
+predicciones.to_csv('predicciones_inventario_rfid.csv', index=False)
 
 print("Predicciones guardadas en 'predicciones_inventario_rfid.csv'")
 print(f"Mejor regresor (Datos RFID): {best_regressor}")
