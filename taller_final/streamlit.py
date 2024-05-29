@@ -2,19 +2,22 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import Nivel_2_Valoracion as valoracion
-import Nivel_3_Riesgo as riesgo
 import modelos
 
 def main():
-    st.title("Sistema de Visualización de Modelos")
-    menu = ["Inicio", "Nivel 2: Valoración", "Nivel 3: Riesgo", "Modelos"]
+    st.title("Sistema de para valoracion del riesgo")
+    menu = ["Inicio", "Modelos", "Nivel 2: Valoración", "Nivel 3: Riesgo"]
     choice = st.sidebar.selectbox("Menú", menu)
 
     if choice == "Inicio":
         st.subheader("Página de Inicio")
-        st.write("Bienvenido al sistema de visualización de modelos.")
+        st.write("Bienvenido al sistema de visualización de resultados.")
         st.write("Seleccione una opción del menú para visualizar los diferentes modelos y resultados.")
     
+    elif choice == "Modelos":
+        st.subheader("Modelos")
+        modelos_app()
+
     elif choice == "Nivel 2: Valoración":
         st.subheader("Nivel 2: Valoración")
         valoracion_app()
@@ -23,9 +26,6 @@ def main():
         st.subheader("Nivel 3: Riesgo")
         riesgo_app()
 
-    elif choice == "Modelos":
-        st.subheader("Modelos")
-        modelos_app()
 
 def valoracion_app():
     st.write("Este es el resultado del análisis de valoración de la situación.")
@@ -48,11 +48,16 @@ def valoracion_app():
     ax.set_xlabel('Valoracion Situacion')
     st.pyplot(fig)
 
+    st.write(" Resultados Dester-shaper.")
+    resultados = pd.read_csv('resultados_dempster_shafer.csv')
+    st.write(resultados)
+    
+
 def riesgo_app():
     st.write("Este es el resultado del análisis de riesgo.")
     # Asume que 'salidas_fis.csv' ya está generado por el script Nivel_3_Riesgo.py
     salidas_fis = pd.read_csv('salidas_fis.csv')
-    st.write(salidas_fis.describe())
+    st.write(salidas_fis.describe()) 
 
     # Visualización del riesgo de discrepancia
     fig, ax = plt.subplots()
@@ -61,6 +66,10 @@ def riesgo_app():
     ax.set_xlabel('Riesgo Discrepancia')
     ax.set_ylabel('Frecuencia')
     st.pyplot(fig)
+
+    st.write(" Resultados Dester-shaper.")
+    resultados3 = pd.read_csv('resultados_nivel3.csv')
+    st.write(resultados3)
 
 def modelos_app():
     st.write("Este es el resultado del análisis de modelos.")
